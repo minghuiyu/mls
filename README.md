@@ -2,7 +2,7 @@
 A script to process copied data from REBGV's monthly stats report
 
 Source data format:
-Lower Mainland $1,231,700 261.6 2.0% 3.2% -0.6% 10.0% 57.3% 58.5% 97.0%
+<pre>Lower Mainland $1,231,700 261.6 2.0% 3.2% -0.6% 10.0% 57.3% 58.5% 97.0%
 Greater Vancouver $1,516,500 279.7 1.8% 2.8% -1.9% 8.1% 58.1% 57.0% 110.5%
 Bowen Island $878,700 190.5 3.0% 5.8% 10.8% 29.4% 53.6% 41.7% 46.0%
 Burnaby East $1,199,800 268.3 3.4% 4.3% 1.6% 6.7% 55.7% 56.2% 105.3%
@@ -24,9 +24,11 @@ Vancouver East $1,474,400 325.9 1.5% 2.4% -2.8% 9.6% 63.8% 73.3% 143.2%
 Vancouver West $3,495,800 358.9 1.0% 2.2% -2.1% 9.3% 58.7% 54.8% 154.2%
 West Vancouver $2,980,700 283.4 0.6% 2.5% -7.1% 1.8% 50.6% 53.4% 108.8%
 Whistler $1,394,300 193.0 2.7% 2.9% 6.4% 18.2% 49.5% 62.5% 60.6%
-
+</pre>
 Target data format
+<pre>
 ,        City 1,   City 2,    City 3,...
 Month 1, $price 1, $price 2,  $price 3,...
 Month 2, $price 1, $price 2,  $price 3,...
 ...
+</pre>
